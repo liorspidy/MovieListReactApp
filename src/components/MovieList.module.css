@@ -1,0 +1,24 @@
+.movieList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 1s slideUp ease-out forwards;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,76 @@
+.movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.movie img {
+    width: 11rem;
+    height: 16rem;
+    margin: 0 1rem;
+}
+
+.xButton {
+    width: 2rem;
+    height: 2rem;
+    background: indigo;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+}
+
+.xButton:hover {
+    background: rgb(144, 0, 247);
+    transition: 0.2s;
+}
+
+.xButton:active {
+    scale: 0.9;
+    transition: 0.1s;
+}
+
+.inputs {
+    display: block;
+    flex-wrap: nowrap;
+    margin: 0 1rem;
+    width: 50%;
+}
+
+.inputs h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs p {
+    width: 90%;
+    text-align: center;
+    text-size-adjust: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade {
+    font-size: 2rem;
+    border: none;
+    background: indigo;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 15px;
+}

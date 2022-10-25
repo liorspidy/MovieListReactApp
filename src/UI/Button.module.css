@@ -1,0 +1,22 @@
+.button{
+    min-width: 6rem;
+    padding: 0.8rem;
+    background-color: rgb(30, 0, 52);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.6rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.button:hover{
+    background: rgb(143, 20, 232);
+    transition: 0.2s;
+}
+
+.button:active{
+    scale: 0.9;
+    transition: 0.1s;
+}
