@@ -63,7 +63,7 @@ const AddMovie = (props) => {
         </div>
         <div>
           <Button type="submit">Add</Button>
-          <Button onClick={props.onAddMovie}>Cancel</Button>
+          <Button onClick={props.onAddMovieToList}>Cancel</Button>
         </div>
       </Card>
     </form>
